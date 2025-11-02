@@ -7,6 +7,6 @@ CELERY_RESULT_SERIALIZER = 'json'
 
 INSTALLED_APPS += ['django_celery_results']
 
-# Email Backend (use console for testing)
+# Email Backend (use console for  testing)
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 DEFAULT_FROM_EMAIL = 'noreply@alxtravel.com'
