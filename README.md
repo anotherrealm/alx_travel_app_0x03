@@ -13,3 +13,4 @@ Testing:
 - Use Chapa sandbox keys and follow the sample flow: init -> go to checkout_url -> complete sandbox payment -> verify.
 - Ensure Celery worker is running to send emails (if enabled):
   celery -A project worker --loglevel=info
+
